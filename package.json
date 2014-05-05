@@ -1,19 +1,19 @@
 {
-    "name": "kevoree-comp-mytopcomp",
-    "version": "0.1.0",
-    "main": "./lib/MyTopComp.js",
-    "scripts": {
-        "prepublish": "grunt"
-    },
-    "dependencies": {
-        "kevoree-entities": "^0.4.15"
-    },
-    "devDependencies": {
-        "grunt": "^0.4.1",
-        "grunt-jade": "^0.4.0",
-        "grunt-kevoree": "^0.4.11",
-        "grunt-browserify": "^2.0.7",
-        "grunt-contrib-uglify": "^0.4.0",
-        "grunt-kevoree-genmodel" : "^0.1.1"
-    }
+  "name": "kevoree-comp-mytopcomp",
+  "version": "0.2.0",
+  "main": "./lib/MyTopComp.js",
+  "scripts": {
+    "prepublish": "grunt"
+  },
+  "dependencies": {
+    "kevoree-entities": "^0.4.15"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "grunt-jade": "^0.4.0",
+    "grunt-kevoree": "^0.4.11",
+    "grunt-browserify": "^2.0.7",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-kevoree-genmodel": "^0.1.1"
+  }
 }

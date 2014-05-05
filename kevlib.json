@@ -1,0 +1,55 @@
+{
+    "eClass": "org.kevoree.ContainerRoot",
+    "generated_KMF_ID": "0.64240625058300791399280740888",
+    "nodes": [],
+    "typeDefinitions": [
+        {
+            "eClass": "org.kevoree.ComponentType",
+            "abstract": "false",
+            "bean": "",
+            "name": "MyTopComp",
+            "factoryBean": "",
+            "version": "0.1.0",
+            "deployUnit": [
+                "deployUnits[//kevoree-comp-mytopcomp/0.1.0]"
+            ],
+            "superTypes": [],
+            "dictionaryType": [
+                {
+                    "eClass": "org.kevoree.DictionaryType",
+                    "generated_KMF_ID": "0.122194405877962711399280740896",
+                    "attributes": []
+                }
+            ],
+            "required": [],
+            "provided": []
+        }
+    ],
+    "repositories": [],
+    "dataTypes": [],
+    "libraries": [
+        {
+            "eClass": "org.kevoree.TypeLibrary",
+            "name": "Javascript",
+            "subTypes": [
+                "typeDefinitions[MyTopComp/0.1.0]"
+            ]
+        }
+    ],
+    "hubs": [],
+    "mBindings": [],
+    "deployUnits": [
+        {
+            "eClass": "org.kevoree.DeployUnit",
+            "groupName": "",
+            "name": "kevoree-comp-mytopcomp",
+            "hashcode": "",
+            "type": "npm",
+            "url": "",
+            "version": "0.1.0",
+            "requiredLibs": []
+        }
+    ],
+    "nodeNetworks": [],
+    "groups": []
+}
